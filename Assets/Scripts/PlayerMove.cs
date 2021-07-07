@@ -14,6 +14,8 @@ public class PlayerMove : MonoBehaviour
     public Transform P_Transform;
     public float moveSpeed = 0.1f;
     public Vector3 subdivide;
+    Rigidbody rb;
+    float dashSpeed = 0.1f;
 
     void Start()
     {
@@ -70,15 +72,22 @@ public class PlayerMove : MonoBehaviour
         //moveSpeed 변수의 값을 원래대로 한다.
 
         }
+        else if(Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            dashSpeed = moveSpeed;
+
+        }
 
         transform.position += direction * moveSpeed * Time.deltaTime;
 
         // 1. 플레이어의 위치를 뷰포트 좌표로 변환한다.
         // (월드 좌표를 뷰포트값으로 바꿔줌)
-        
+
 
         //print(playerViewPos);
         // 2. 변환된 뷰포트 좌표의 값이 0 - 1 사이를 벗어나지 못하도록 한다. 
+        rb.velocity = direction * dashSpeed;
+
 
         //(Clamp 0~1 = Clamp 01)
         player = GameObject.Find("Player");
@@ -90,17 +99,17 @@ public class PlayerMove : MonoBehaviour
         Minus = new Vector3 ((P_Transform.position.x - (P_Transform.localScale.x * 0.5f)), 0, 0);
         Plus = new Vector3 ((P_Transform.position.x + (P_Transform.localScale.x * 0.5f)), 0, 0);
 
-        transform.position - new Vector3(Mathf.Clamp(1f, (P_Transform.position.x - (P_Transform.localScale.x * 0.5f)), 1f - (P_Transform.position.x + (P_Transform.localScale.x * 0.5f))), 0, 0)
+        //transform.position - new Vector3(Mathf.Clamp(1f, (P_Transform.position.x - (P_Transform.localScale.x * 0.5f)), 1f - (P_Transform.position.x + (P_Transform.localScale.x * 0.5f))), 0, 0)
 
-        int PowerX = player.transform.position ;
+        //int PowerX = player.transform.position ;
 
 
         print(subdivide);
-        float vx;
-        float vy;
+       // float vx;
+       // float vy;
 
 
-        Vector3 hello = new Vector3(vx, vy, 0);
+       // Vector3 hello = new Vector3(vx, vy, 0);
 
 
         

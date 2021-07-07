@@ -12,11 +12,18 @@ public class EnemyMove : MonoBehaviour
     public bool ischecked = true;
     public int[] checkedRandom = new int[2];
 
+
+    Animation myAnim;
+
     // Start is called before the first frame update
     void Start()
     {  //  랜덤 독립 실행 확률 검증 테스트  
         //CheckResult();
         int follow = Random.Range(0, 10);
+
+        //애니메이션 자식의 오브젝트 콤포넌트를 가져옴. 
+        myAnim = GetComponentInChildren<Animation>();
+        myAnim.Play();
 
         //print(follow);
         //ischecked = true;
