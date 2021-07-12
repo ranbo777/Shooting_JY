@@ -19,7 +19,6 @@ public class BGMove : MonoBehaviour
         backMat = GetComponent<MeshRenderer>().material;
         
 
-
     }
 
     // Update is called once per frame

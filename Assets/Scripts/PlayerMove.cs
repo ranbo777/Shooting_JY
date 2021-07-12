@@ -86,7 +86,7 @@ public class PlayerMove : MonoBehaviour
 
         //print(playerViewPos);
         // 2. 변환된 뷰포트 좌표의 값이 0 - 1 사이를 벗어나지 못하도록 한다. 
-        rb.velocity = direction * dashSpeed;
+        // rb.velocity = direction * dashSpeed;
 
 
         //(Clamp 0~1 = Clamp 01)
@@ -104,7 +104,7 @@ public class PlayerMove : MonoBehaviour
         //int PowerX = player.transform.position ;
 
 
-        print(subdivide);
+        //print(subdivide);
        // float vx;
        // float vy;
 

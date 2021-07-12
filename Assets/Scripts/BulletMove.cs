@@ -6,10 +6,7 @@ public class BulletMove : MonoBehaviour
 {
 
     public float moveSpeed = 10;
-    
     public PlayerFire pFire;
-
-
     public GameObject Player;
 
 

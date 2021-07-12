@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
-
+    Lerp lp;
     float moveSpeed = 10.0f;
     public GameObject Player;
     public int FollowP = 10; 
@@ -23,7 +23,7 @@ public class EnemyMove : MonoBehaviour
 
         //애니메이션 자식의 오브젝트 콤포넌트를 가져옴. 
         myAnim = GetComponentInChildren<Animation>();
-        myAnim.Play();
+       //* myAnim.Play();
 
         //print(follow);
         //ischecked = true;
@@ -70,14 +70,20 @@ public class EnemyMove : MonoBehaviour
 
 
     private void OnCollisionEnter(Collision collision)
+        // 부딪혔을때
     {
         // print(((byte)collision.gameObject.layer));
         // float go = (byte)collision.gameObject.layer; 
 
         // print(go);
+        GameManager.gm.SetActiveUI(true);
+       
 
-        if(collision.gameObject.layer == LayerMask.NameToLayer("Player")) 
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Player")) 
         {
+         //   Lerp.FadeEffect();
+
+
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
