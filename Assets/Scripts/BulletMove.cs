@@ -79,7 +79,43 @@ public class BulletMove : MonoBehaviour
             //}
 
             //}
-        
+
+            if(bulletType ==MoveType.UserBullet)
+        {
+            CheckCollidingEnemy(col);
+
+        }
+        if (bulletType == MoveType.BossMissile
+        {
+            CheckCollidingPlayer(col);
+
+        }
+
+    }
+
+    void CheckCollidingEnemy(Collision col)
+    {
+
+        if(col.gameObject.tag =="Enemy")
+        {
+            Destroy(col.gameObject);
+            GameManager.gm.AddPoint(10);
+
+        }
+
+    }
+
+    void CheckCollidingPlayer(Collision col)
+    {
+
+        if (col.gameObject.tag == "Player")
+        {
+            GameManager.gm.playerLifeCount--;
+            col.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            Destroy(GameObject);
+
+        }
+
     }
 
 }
