@@ -15,11 +15,11 @@ C:/Users/user/Documents/Unity_T/Shooting_JY
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63579
+49577
 Successfully changed project path to: C:/Users/user/Documents/Unity_T/Shooting_JY
 C:/Users/user/Documents/Unity_T/Shooting_JY
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 112.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -37,39 +37,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.110127 seconds.
+Registered in 0.001362 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.985 seconds
+- Completed reload, in  1.283 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.195374 seconds.
+Registered in 0.002995 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.604 seconds
+- Completed reload, in  0.788 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1428 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 68.5 MB.
 System memory in use after: 68.6 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1861.
-Total: 1.713200 ms (FindLiveObjects: 0.154000 ms CreateObjectMapping: 0.046700 ms MarkObjects: 1.432100 ms  DeleteObjects: 0.079500 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1862.
+Total: 1.528000 ms (FindLiveObjects: 0.134700 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.286500 ms  DeleteObjects: 0.064900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -83,41 +83,225 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(12b4219315fd60544a52730bfc2b88ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(12b4219315fd60544a52730bfc2b88ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6a538f13579250e65c9e13d5d9bfd4') in 0.027430 seconds 
-  Import took 0.030162 seconds .
+  path: Assets/Scripts/BossPatere.cs
+  artifactKey: Guid(857cb939d009dae439a48cb6510c6efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatere.cs using Guid(857cb939d009dae439a48cb6510c6efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bfab4d5b0bdc9f60d7590578f928b0') in 0.022358 seconds 
+  Import took 0.024249 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1070.224336 seconds.
-  path: Assets/Scripts/BulletMove.cs
-  artifactKey: Guid(44106c891f7de8442a30f8a0c3a839ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BulletMove.cs using Guid(44106c891f7de8442a30f8a0c3a839ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9dafdcf7a9dcebbe261dbe37fa76365') in 0.006573 seconds 
-  Import took 0.009154 seconds .
+  Time since last request: 87.629713 seconds.
+  path: Assets/Scripts/EnemyFactory.cs
+  artifactKey: Guid(a506043627198344aa5c7b23b04c18b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyFactory.cs using Guid(a506043627198344aa5c7b23b04c18b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19137a69dbbd261eb58849d1a044c9a') in 0.004737 seconds 
+  Import took 0.007236 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 78.964560 seconds.
-  path: Assets/Scripts/BulletMove.cs
-  artifactKey: Guid(44106c891f7de8442a30f8a0c3a839ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BulletMove.cs using Guid(44106c891f7de8442a30f8a0c3a839ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515194adf859e51725151ac48b560544') in 0.002533 seconds 
-  Import took 0.004706 seconds .
+  Time since last request: 0.239214 seconds.
+  path: Assets/Scripts/EnemyFactory.cs
+  artifactKey: Guid(a506043627198344aa5c7b23b04c18b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyFactory.cs using Guid(a506043627198344aa5c7b23b04c18b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19137a69dbbd261eb58849d1a044c9a') in 0.001638 seconds 
+  Import took 0.004113 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 100.235172 seconds.
-  path: Assets/Scripts/BulletMove.cs
-  artifactKey: Guid(44106c891f7de8442a30f8a0c3a839ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BulletMove.cs using Guid(44106c891f7de8442a30f8a0c3a839ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2722fd923e470c37f2c78b1ddee85a55') in 0.002126 seconds 
-  Import took 0.004734 seconds .
+  Time since last request: 0.261682 seconds.
+  path: Assets/Scripts/EnemyMove.cs
+  artifactKey: Guid(4601ebeae80ef004fa469a8f8fe3bdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyMove.cs using Guid(4601ebeae80ef004fa469a8f8fe3bdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910f49ff4e94d7628cce5995b29b574a') in 0.005375 seconds 
+  Import took 0.007580 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 625.022654 seconds.
-  path: Assets/Scripts/BulletMove.cs
-  artifactKey: Guid(44106c891f7de8442a30f8a0c3a839ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BulletMove.cs using Guid(44106c891f7de8442a30f8a0c3a839ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93601a2b3df9d6b70b7b9b8206a0a7c3') in 0.009999 seconds 
-  Import took 0.013036 seconds .
+  Time since last request: 22.040541 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06726ce9fd997fbb0f6623824b278a97') in 0.005345 seconds 
+  Import took 0.007403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.417441 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc7a47be4ec3e6ef9853a914aa084b4') in 0.002481 seconds 
+  Import took 0.005065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.311277 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de089c156c5fa170fe94040f68c0d396') in 0.002502 seconds 
+  Import took 0.005058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.357590 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4eb6e659089ab652da2a3aec66db7a') in 0.002310 seconds 
+  Import took 0.005129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 445.109862 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8bd643124f5c56a3b0c6ae5113f5f1') in 0.002285 seconds 
+  Import took 0.005180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.970268 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb556bfba1f9b22a0d74a25b7e10227') in 0.002135 seconds 
+  Import took 0.004585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.287959 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1599caab178a7caf6d4b69b1a1fe44a6') in 0.002224 seconds 
+  Import took 0.004482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.433649 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a148562a7a73e102c9ccd628682d79') in 0.002151 seconds 
+  Import took 0.004232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 335.302969 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f4a3d73c39dfaa805268786ed5013c') in 0.002548 seconds 
+  Import took 0.005402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.426350 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f11f4625eff1a071a898dc8f41ff5d6') in 0.002249 seconds 
+  Import took 0.004968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.056590 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5a5d632be63f0fb6b6a9303cfd43cc') in 0.001956 seconds 
+  Import took 0.004290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.529823 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8175bfb4a54d0620c9b19417c4c992bf') in 0.002324 seconds 
+  Import took 0.004406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.183049 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ee9ea81c74820f179d69d878df18c9') in 0.002077 seconds 
+  Import took 0.004374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.889879 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187f0eb462db2b8af2489e7f5ea23f9b') in 0.002303 seconds 
+  Import took 0.004595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.043700 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be09640b6a43bf64006398d2ed819054') in 0.001801 seconds 
+  Import took 0.004229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.387179 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd217e1b18904070eb73e99fa51219a4') in 0.001866 seconds 
+  Import took 0.004201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.564635 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45273b907dbdc9fded522086c3ebf15a') in 0.001773 seconds 
+  Import took 0.003922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 199.139366 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b63fa19bc26e91d211c65ad006fa14') in 0.001964 seconds 
+  Import took 0.004657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.167840 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03d696160d0daa105eced09ce3a26b9') in 0.001741 seconds 
+  Import took 0.004032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 407.412913 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790a32bfbd43a7098f6a49d3c472faa5') in 0.002047 seconds 
+  Import took 0.004657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.764902 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec034324a369ac2cb957a4eeda11e1f6') in 0.001909 seconds 
+  Import took 0.004013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.480780 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd0b31ed9a3662a1cbfd8faadbd1876') in 0.002350 seconds 
+  Import took 0.005241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.946378 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c5ba4b3acf9f54bdbe084fa2be6e2a') in 0.001781 seconds 
+  Import took 0.004326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.543664 seconds.
+  path: Assets/Scripts/BossPatern.cs
+  artifactKey: Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossPatern.cs using Guid(03841fe2155c3cb4ab05e94a2760ddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65eea526473e25d4d7ea2d9d9853c612') in 0.002017 seconds 
+  Import took 0.004479 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -27,6 +27,8 @@ public class GameManager : MonoBehaviour
 
     int curScore = 0;
     int BestScore = 0;
+    public int bossCounter = 5;
+    public GameObject bossPrefab;
 
 
 
@@ -94,8 +96,19 @@ public class GameManager : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+
+
     {
-        if(fadeStart)
+
+        if (curScore >= bossCounter)
+        {
+
+            GameObject.Find("EnemyFactories").SetActive(false);
+            Instantiate(bossPrefab);
+        }
+
+
+        if (fadeStart)
         {
             FadeInEffect();
         }
